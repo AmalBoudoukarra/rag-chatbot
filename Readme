@@ -14,7 +14,7 @@ A professional Retrieval-Augmented Generation (RAG) backend system built with Fa
 
 ---
 1. **Clone the repository**
-git clone <git remote add origin https://github.com/AmalBoudoukarra/RAG-Q-A-Chatbot.git>
+git clone https://github.com/AmalBoudoukarra/RAG-Q-A-Chatbot.git
 
 2. **Install dependencies**
 pip install -r requirements.txt
