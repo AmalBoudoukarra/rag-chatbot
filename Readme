@@ -1,0 +1,33 @@
+# RAG Q&A Chatbot - Backend
+
+A professional Retrieval-Augmented Generation (RAG) backend system built with FastAPI and LangChain.
+
+## 🚀 Features
+
+- **Document Ingestion**: Supports PDF, TXT, and Markdown files
+- **Vector Search**: Uses ChromaDB for efficient similarity search
+- **Multiple LLM Providers**: Supports OpenAI and HuggingFace models
+- **RESTful API**: Clean FastAPI implementation with automatic documentation
+- **Structured Logging**: Comprehensive logging with structlog
+- **Health Checks**: Built-in health monitoring
+- **Professional Architecture**: Clean separation of concerns, dependency injection
+
+---
+1. **Clone the repository**
+git clone <git remote add origin https://github.com/AmalBoudoukarra/RAG-Q-A-Chatbot.git>
+
+2. **Install dependencies**
+pip install -r requirements.txt
+
+3. **Create and activate a virtual environment**
+python -m venv venv                                                             
+.\venv\Scripts\Activate.ps1    
+
+4. **Configure API keys in app/config.py or via environment variables**
+export OPENAI_API_KEY="sk-..."
+
+5. **Run the backend**
+uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+
+6. **Access API docs**
+Swagger UI: http://localhost:8000/docs

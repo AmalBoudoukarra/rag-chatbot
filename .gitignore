@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Data & Models
+*.pkl
+*.pth
+*.bin
+*.onnx
+*.h5
+*.pt
+
+# Large libraries (PyTorch, etc.)
+*.dll
+*.dylib
+*.so.*
+
+# Vector store
+app/data/vectordb/
+
+# Documents (optionnel - gardez un exemple)
+# app/data/documents/*.pdf
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Test files
+test_llm.py
